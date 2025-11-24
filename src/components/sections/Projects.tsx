@@ -3,8 +3,7 @@ import { Presentation } from 'lucide-react';
 
 import Card from '@/components/myComponents/item/Card';
 
-// import { useMediaQuery } from "react-responsive";
-// import { useMediaQuery } from "react-responsive";
+
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -68,23 +67,6 @@ const Projects = (props: Props) => {
 
 
 
-                {/* {
-                    servicesData.map((skill, index) => (
-
-                        <div
-                            key={index}
-                            
-                            className={` ${layoutClasses[index]}`}
-                        >
-                            <Card 
-                                key={skill.id}
-                                index={index}
-                                service={skill}
-                            />
-                        </div>
-
-                    ))
-                } */}
 
                 {
                     projectData.map((skill, index) => (
@@ -107,31 +89,6 @@ const Projects = (props: Props) => {
 
         </section>
 
-        // <section
-        //     id="services" className="min-h-screen bg-gray-300 rounded-t-4xl  grid-cols-3  px-auto  overflow-x-hidden"
-        // >
-        //     <div
-        //         className='p-2 bg-red-100'
-        //     >
-        //         <div className='px-3'>
-        //             <h1 className='font-normal underline '>Dự án cá nhân</h1>
-        //         </div>
-
-        //     </div>
-
-
-        //     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        //         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 overflow-x-hidden">
-        //             {servicesData.map((service, index) => (
-        //                 <Card
-        //                     key={service.id}
-        //                     index={index}
-        //                     service={service}
-        //                 />
-        //             ))}
-        //         </div>
-        //     </div>
-        // </section>
     )
 }
 

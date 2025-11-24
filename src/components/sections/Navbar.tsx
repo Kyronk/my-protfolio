@@ -13,15 +13,15 @@ import { navItems } from "@/constacts";
 
 type Props = {}
 
-// const navItems = ["Trang chủ", "Về mình", "Dự án cá nhân", "Liên hệ"];
+
 
 const Navbar = (props: Props) => {
 
-    // State for toggling audio and visual indicator
+
     const [isAudioPlaying, setIsAudioPlaying] = useState(false);
     const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
-    // Refs for audio and navigation container
+
     const audioElementRef = useRef(null);
     const navContainerRef = useRef(null);
 
@@ -33,17 +33,17 @@ const Navbar = (props: Props) => {
 
     useEffect(() => {
         if (currentScrollY === 0) {
-            // Topmost position: show navbar without floating-nav
+            
             setIsNavVisible(true);
             navContainerRef.current?.classList.remove("floating-nav");
         } else if (currentScrollY > lastScrollY) {
-            // Scrolling down: hide navbar and apply floating-nav
+            
             setIsNavVisible(false);
-            // navContainerRef.current.classList.add("floating-nav");
+            
         } else if (currentScrollY < lastScrollY) {
-            // Scrolling up: show navbar with floating-nav
+            
             setIsNavVisible(true);
-            // navContainerRef.current.classList.add("floating-nav");
+            
         }
 
         setLastScrollY(currentScrollY);

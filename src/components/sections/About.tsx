@@ -173,7 +173,7 @@ const About = (props: Props) => {
                             
 
                             <a
-                                href="/file/Pham-Bao-Manh-Tuong_Web_developer.pdf"
+                                href="/file/Pham-Bao-Manh-Tuong-Web_developer.pdf"
 
                                 target="_blank"
                                 rel="noopener noreferrer"

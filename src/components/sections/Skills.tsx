@@ -49,7 +49,7 @@ const Skills = () => {
                         className="text-2xl flex items-center md:text-5xl font-bold text-center md:text-start text-gray-700 dark:text-white"
                     >
                         <UserRoundSearch
-                            // size={40}
+                            
                             className='mr-2 w-5 h-5 md:mr-4 md:w-10 md:h-10  text-gray-400'
                         />
                         Về 

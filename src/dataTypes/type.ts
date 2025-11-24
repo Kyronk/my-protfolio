@@ -1,4 +1,4 @@
-// import { Skill } from '@/dataTypes/type';
+
 export interface ServiceItem {
     title: string;
     description: string;
@@ -20,10 +20,6 @@ export interface Skill {
 }
 
 export type  SkillList  = Skill[]
-
-
-
-
 
 
 export interface Tech {

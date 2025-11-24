@@ -35,18 +35,6 @@
         --my-primary: 221, 136, 207;
 
         --my-background: 245, 245, 245;
-        /*
-            chúng ta cần định dạng 1 vài thứ ở đây
-            color for text, char, title
-
-            color for card background 
-
-            color for animation 
-
-            ....
-        
-         */
-        /* --my-text: 93px; */
 
 
     }
@@ -76,8 +64,9 @@
         --chart-3: 30 80% 55%;
         --chart-4: 280 65% 60%;
         --chart-5: 340 75% 55%
-            /* my set dark mode */
-            --my-background-dark: 75, 22, 76;
+        
+        /* my set dark mode */
+        --my-background-dark: 75, 22, 76;
         --my-text-dark: 245, 245, 245;
 
     }

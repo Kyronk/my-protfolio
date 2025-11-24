@@ -1,4 +1,4 @@
-import { Project } from "@/dataTypes/type"; // Import type từ file của bạn
+import { Project } from "@/dataTypes/type";
 
 // Helper để tạo URL logo cho gọn
 const deviconUrl = (tech: string, variant: string = 'original') => {
@@ -56,7 +56,7 @@ export const projectData: Project[] = [
         ],
         description: "Một trang web cửa hàng (shop) đơn giản, tập trung vào việc quản lý state phức tạp bằng Redux Toolkit và xây dựng giao diện bằng TypeScript.",
         link: "https://gitlab.com/react9750409/react_1",
-        demo: "https://react-1-lyart.vercel.app/products", // <-- Cái duy nhất có demo
+        demo: "https://react-1-k005is9la-kyronks-projects.vercel.app/",
     },
     {
         id: 3,
@@ -77,7 +77,7 @@ export const projectData: Project[] = [
         ],
         description: "Một ứng dụng cá nhân để theo dõi danh sách anime yêu thích, được xây dựng hoàn toàn bằng React và TypeScript, giao diện với TailwindCSS.",
         link: "https://gitlab.com/react9750409/myalist_1",
-        // không có demo
+        demo: "https://myalist-1-pgftbtdaf-kyronks-projects.vercel.app/"
     },
 
     {
@@ -103,6 +103,5 @@ export const projectData: Project[] = [
         ],
         description: "Một dự án full-stack nhân bản trang web bất động sản Zillow (phiên bản mini). Xây dựng bằng React, Node.js, Express và cơ sở dữ liệu MySQL.",
         link: "https://github.com/Kyronk/zillow_mini_full",
-        // không có demo
     }
 ];
