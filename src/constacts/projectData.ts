@@ -101,7 +101,7 @@ export const projectData: Project[] = [
             "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762961068/demo_Cv_2025/4/Screenshot_2025-11-12_205205_jhxcy6.png",
             "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762961069/demo_Cv_2025/4/Screenshot_2025-11-12_205230_kvct09.png"
         ],
-        description: "Một dự án full-stack nhân bản trang web bất động sản Zillow (phiên bản mini). Xây dựng bằng React, Node.js, Express và cơ sở dữ liệu MySQL.",
+        description: "Một dự án full-stack nhân bản trang web bất động sản Zillow. Xây dựng bằng React, Node.js, Express và cơ sở dữ liệu MySQL.",
         link: "https://github.com/Kyronk/zillow_mini_full",
     }
 ];
