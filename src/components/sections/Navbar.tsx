@@ -33,17 +33,17 @@ const Navbar = (props: Props) => {
 
     useEffect(() => {
         if (currentScrollY === 0) {
-            
+
             setIsNavVisible(true);
             navContainerRef.current?.classList.remove("floating-nav");
         } else if (currentScrollY > lastScrollY) {
-            
+
             setIsNavVisible(false);
-            
+
         } else if (currentScrollY < lastScrollY) {
-            
+
             setIsNavVisible(true);
-            
+
         }
 
         setLastScrollY(currentScrollY);
@@ -67,7 +67,12 @@ const Navbar = (props: Props) => {
                 <nav className="flex size-full items-center justify-between p-4">
                     <div className="flex items-center gap-7">
 
-                            <FolderCode color="#ff47f9" size={45}/>
+                        {/* <FolderCode color="#ff47f9" size={45}/> */}
+                        <img
+                            src="/images/logo/logo.png"
+                            alt="Logo cá nhân"
+                            className="h-12 w-auto object-contain"
+                        />
 
                     </div>
 
@@ -77,7 +82,7 @@ const Navbar = (props: Props) => {
 
                                 <Link
                                     key={index}
-                                    
+
                                     activeClass="active"
                                     to={item.url}
                                     spy={true}
