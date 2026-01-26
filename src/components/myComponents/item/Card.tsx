@@ -161,7 +161,7 @@ const Card = ({ index, service }: Props) => {
                         <div className="flex flex-wrap gap-4">
                             <a href={link} target="_blank" rel="noopener noreferrer"
                                 className="text-sm text-blue-500 hover:underline">
-                                Xem code
+                                Source code
                             </a>
 
                             {demo && (

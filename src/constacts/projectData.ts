@@ -1,6 +1,5 @@
 import { Project } from "@/dataTypes/type";
 
-// Helper để tạo URL logo cho gọn
 const deviconUrl = (tech: string, variant: string = 'original') => {
     return `https://devicon-website.vercel.app/api/${tech}/${variant}.svg`;
 }
@@ -8,6 +7,45 @@ const deviconUrl = (tech: string, variant: string = 'original') => {
 export const projectData: Project[] = [
     {
         id: 1,
+        title: "Social Media V1",
+        tech: [
+            { id: 1, title: 'React', logo: deviconUrl('react'), color: '#61DAFB' },
+            { id: 2, title: 'TailwindCSS', logo: deviconUrl('tailwindcss', 'plain'), color: '#000' },
+            { id: 3, title: 'Asp.net core', logo: deviconUrl('dotnetcore'), color: '#000' },
+            { id: 4, title: 'Postgresql', logo: deviconUrl('postgresql'), color: '#000000' },
+            { id: 5, title: 'Docker', logo: deviconUrl('docker'), color: '#000000' },
+
+            // { id: 5, title: 'MongoDB', logo: deviconUrl('mongodb'), color: '#47A248' },
+        ],
+        image: [
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404397/demo_Cv_2025/5/Screenshot_2026-01-26_120646_kyzsep.png",
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404398/demo_Cv_2025/5/Screenshot_2026-01-26_120916_hhvobc.png",
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404398/demo_Cv_2025/5/Screenshot_2026-01-26_120805_ikulkb.png",
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404398/demo_Cv_2025/5/Screenshot_2026-01-26_120840_uigili.png",
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404398/demo_Cv_2025/5/Screenshot_2026-01-26_120945_isij29.png",
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404399/demo_Cv_2025/5/Screenshot_2026-01-26_121005_p0criw.png",
+            "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1769404400/demo_Cv_2025/5/Screenshot_2026-01-26_120713_ey1r0a.png"
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960532/demo_Cv_2025/1/Screenshot_2025-11-12_204419_uizjiw.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960532/demo_Cv_2025/1/Screenshot_2025-11-12_204005_cdrpwl.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960532/demo_Cv_2025/1/Screenshot_2025-11-12_203811_cua3km.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960534/demo_Cv_2025/1/Screenshot_2025-11-12_204114_kixmkf.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960533/demo_Cv_2025/1/Screenshot_2025-11-12_204242_ngauyl.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960532/demo_Cv_2025/1/Screenshot_2025-11-12_204157_dk3wbm.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960532/demo_Cv_2025/1/Screenshot_2025-11-12_204157_dk3wbm.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960532/demo_Cv_2025/1/Screenshot_2025-11-12_204419_uizjiw.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960534/demo_Cv_2025/1/Screenshot_2025-11-12_204735_dfmhfe.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960533/demo_Cv_2025/1/Screenshot_2025-11-12_204516_k7psxq.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960533/demo_Cv_2025/1/Screenshot_2025-11-12_204625_cjvhlj.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960534/demo_Cv_2025/1/Screenshot_2025-11-12_204735_dfmhfe.png",
+            // "https://res.cloudinary.com/dvpu9sc4z/image/upload/v1762960533/demo_Cv_2025/1/Screenshot_2025-11-12_204659_meqeeo.png"
+
+        ],
+        description: "",
+        link: "https://gitlab.com/react9750409/project_react_social_v1",
+        demo: "https://project-react-social-v1-frontend-re.vercel.app/"
+    },
+    {
+        id: 2,
         title: "E-Commerce Clone",
         tech: [
             { id: 1, title: 'React', logo: deviconUrl('react'), color: '#61DAFB' },
@@ -38,7 +76,7 @@ export const projectData: Project[] = [
     },
 
     {
-        id: 2,
+        id: 3,
         title: "React Shop",
         tech: [
             { id: 1, title: 'TypeScript', logo: deviconUrl('typescript'), color: '#3178C6' },
@@ -59,7 +97,7 @@ export const projectData: Project[] = [
         demo: "https://react-1-k005is9la-kyronks-projects.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "My Anime List",
         tech: [
             { id: 1, title: 'TypeScript', logo: deviconUrl('typescript'), color: '#3178C6' },
@@ -81,7 +119,7 @@ export const projectData: Project[] = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Zillow Mini Clone",
         tech: [
             { id: 1, title: 'React', logo: deviconUrl('react'), color: '#61DAFB' },
