@@ -61,7 +61,7 @@ const ContactSection = () => {
                                 Kết nối <span className='text-main-primary ml-1'>với mình</span>  
                             </h3>
                             <p className="mt-3 text-gray-600 dark:text-gray-300">
-                                Nếu bạn muốn biết thêm về tôi hoặc công việc của tôi, hoặc chỉ đơn giản là muốn nói xin chào, hãy gửi tin nhắn cho tôi. Tôi rất muốn nghe từ bạn.
+                                Nếu bạn muốn biết thêm về mình hoặc công việc của mình, hoặc chỉ đơn giản là muốn nói xin chào, hãy gửi tin nhắn cho mình. Mình rất muốn nghe từ bạn.
                             </p>
 
                             <form ref={form} onSubmit={sendEmail} className="mt-10 space-y-6">
